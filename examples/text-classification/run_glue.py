@@ -22,6 +22,7 @@ import sys
 from dataclasses import dataclass, field
 from typing import Optional
 
+import comet_ml
 import numpy as np
 from datasets import load_dataset, load_metric
 
